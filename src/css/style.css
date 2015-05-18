@@ -634,6 +634,9 @@ body{
   float: right;
   margin-right: 30px;
 }
+.footer__logo:hover{
+  opacity: .8;
+}
 
 .footer-navigation{
   float: left;
