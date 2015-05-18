@@ -292,21 +292,11 @@ th {
 }*/
 
 /* база */
-/*@font-face {
-  font-family: 'Gotham';
-  src:  url('../font/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../font/GothamPro-Medium.otf') format('opentype'),
-        url('../font/GothamPro-Medium.woff') format('woff'),
-        url('../font/GothamPro-Medium.ttf') format('truetype'),
-        url('../font/GothamPro-Medium.svg#font/GothamPro-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}*/
-
 body{
-  font-family: 'Arial', sans-serif;
-  font-size: 14px;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 16px;
   line-height: 20px;
+  color: #83959a;
 }
 
 h1{
