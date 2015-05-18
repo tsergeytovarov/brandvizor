@@ -5,10 +5,13 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  font-size: 18px;
-  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  padding: 6px 35px;
   border-radius: 5px;
-  font-weight: 300;
+  font-weight: 400;
+  font-family: 'PT Sans', 'Arial', sans-serif;
 
   &:hover,
   &--hover{
@@ -20,16 +23,21 @@
 
   }
 
-  &__modify{
+  &--gray{
+    background: #83959a;
+    box-shadow: inset 0 -2px 0 #727f82;
 
     &:hover,
     &--hover{
-
+      background: #7BA8B5;
     }
 
     &:active,
     &__active{
-
+      box-shadow: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 2px;
     }
   }
 }

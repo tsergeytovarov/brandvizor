@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg width="34" height="43" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <circle id="svg_2" r="3.6" cy="5.000002" cx="27.600002" fill="#FBCD3E"/>
+   <circle id="svg_3" r="3.6" cy="3.600002" cx="28.900002" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+   <rect id="svg_4" height="28" width="30" fill="#FBCD3E" y="15.000002" x="0.000002"/>
+   <polygon id="svg_5" points="26.300003051757812,19.700002670288086 6.400001525878906,19.700002670288086 16.400001525878906,9.80000114440918 " fill="#FBCD3E"/>
+   <g id="svg_6">
+    <polyline id="svg_7" points="2.5,21.000001907348633 2.5,40.00000190734863 32.5,40.00000190734863 32.5,21.000001907348633 " stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <polyline id="svg_8" points="33.5,12.000001907348633 2.5,12.000001907348633 2.5,18.000001907348633 33.5,18.000001907348633 " stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <path id="svg_9" d="m29.5,27.000002l-4,0c-1.700001,0 -3,1.299999 -3,3c0,1.700001 1.299999,3.000002 3,3.000002l4,0" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+   </g>
+   <polygon id="svg_10" points="28.10000228881836,17.80000114440918 8.300003051757812,17.80000114440918 18.200000762939453,7.900003433227539 " stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+  </g>
+ </g>
+</svg>

@@ -1,1 +1,8 @@
-body{}
+body{
+  min-width: 1024px;
+}
+
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
