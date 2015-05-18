@@ -1,0 +1,62 @@
+.page-header{
+  font-size: 24px;
+  line-height: 2;
+  color: #2d393b;
+  font-weight: 400;
+  padding: 25px 0;
+}
+
+.tarif-wrapper{
+  font-size: 0;
+  margin-bottom: 25px;
+}
+
+.tarif{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 305px;
+  background: #2d393b;
+  padding: 50px 15px 10px 15px;
+  min-height: 305px;
+  text-align: center;
+
+  &:nth-child(2){
+    margin: 0 20px;
+  }
+
+  &__name{
+    font-size: 18px;
+    line-height: 18px;
+    color: #72b5c7;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  &__price{
+    font-size: 44px;
+    line-height: 50px;
+    color: #f1832b;
+    margin-bottom: 30px;
+
+    span{
+      display: block;
+      font-size: 16px;
+      line-height: 18px;
+      color: #adadad;
+    }
+  }
+
+  &__text{
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+  }
+}
+
+.tarif-list{
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #83959a;
+}

@@ -542,13 +542,33 @@ button{
 table{}
 
 /* проект */
+html,
 body{
   min-width: 1024px;
+  height: 100%;
 }
 
 .container{
   width: 1024px;
   margin: 0 auto;
+}
+
+.wrapper{
+  height: 100%;
+  padding-bottom: 110px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  margin-top: -84px;
+  padding-top: 84px;
+  z-index: -10;
+}
+
+.wrapper .footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 /*header*/
 .header{
@@ -560,6 +580,14 @@ body{
 .header__top{
   padding-top: 20px;
   margin-bottom: 135px;
+}
+.header--inner{
+  min-height: 0;
+  padding-bottom: 20px;
+  background: #2d393b;
+}
+.header--inner .header__top{
+  margin-bottom: 0;
 }
 
 /*logo*/
@@ -801,6 +829,69 @@ body{
   line-height: 19px;
   color: #83959a;
   margin-bottom: 40px;
+}
+.page-header{
+  font-size: 24px;
+  line-height: 2;
+  color: #2d393b;
+  font-weight: 400;
+  padding: 25px 0;
+}
+
+.tarif-wrapper{
+  font-size: 0;
+  margin-bottom: 25px;
+}
+
+.tarif{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 305px;
+  background: #2d393b;
+  padding: 50px 15px 10px 15px;
+  min-height: 305px;
+  text-align: center;
+}
+
+.tarif:nth-child(2){
+  margin: 0 20px;
+}
+
+.tarif__name{
+  font-size: 18px;
+  line-height: 18px;
+  color: #72b5c7;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.tarif__price{
+  font-size: 44px;
+  line-height: 50px;
+  color: #f1832b;
+  margin-bottom: 30px;
+}
+
+.tarif__price span{
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  color: #adadad;
+}
+
+.tarif__text{
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.tarif-list{
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #83959a;
 }
 
 /* контекст */

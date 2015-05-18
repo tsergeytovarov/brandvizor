@@ -25,6 +25,7 @@
 @import "project/header.css";
 @import "project/footer.css";
 @import "project/index.css";
+@import "project/tarif.css";
 
 /* контекст */
 @import "context/media.css";

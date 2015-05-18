@@ -9,6 +9,16 @@
     padding-top: 20px;
     margin-bottom: 135px;
   }
+
+  &--inner{
+    min-height: 0;
+    padding-bottom: 20px;
+    background: #2d393b;
+
+    .header__top{
+      margin-bottom: 0;
+    }
+  }
 }
 
 /*logo*/
