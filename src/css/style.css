@@ -625,7 +625,55 @@ body{
   margin-bottom: 20px;
   font-weight: 400;
 }
-.main-footer{}
+.footer{
+  padding: 20px 0 25px;
+  background: #83959a;
+}
+.footer__logo{
+  display: block;
+  float: right;
+  margin-right: 30px;
+}
+
+.footer-navigation{
+  float: left;
+  margin: 20px 0 0 30px;
+  width: 820px;
+}
+
+.footer-navigation__list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.footer-navigation__item{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 18px;
+  color: #3a494b;
+  margin-right: 25px;
+}
+
+.footer-navigation__item:last-child{
+  margin-right: 0;
+}
+
+.footer-navigation__link{
+  color: #3a494b;
+  text-decoration: none;
+}
+
+.footer-navigation__link:hover{
+  text-decoration: underline;
+}
+
+.footer-navigation__link:active{
+  text-decoration: underline;
+  opacity: .8;
+}
 /* блок преимуществ */
 .features{
   padding: 45px 0 50px;
