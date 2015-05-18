@@ -564,6 +564,12 @@ body{
   z-index: -10;
 }
 
+.wrapper > .container{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 30px;
+}
+
 .wrapper .footer{
   position: absolute;
   bottom: 0;
