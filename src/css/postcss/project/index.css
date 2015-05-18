@@ -1,3 +1,4 @@
+/* блок преимуществ */
 .features{
   padding: 45px 0 50px;
 
@@ -55,5 +56,78 @@
     img{
       margin-top: 25px;
     }
+  }
+}
+
+/* партнер */
+.partner{
+  background: #3a494b;
+  padding: 29px 0;
+
+  &__text{
+    display: block;
+    float: left;
+    margin-left: 55px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #83959a;
+
+    img{
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+  }
+
+  &__slogan{
+    width: 300px;
+    float: right;
+    margin-right: 175px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #83959a;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid #83959a;
+  }
+}
+
+/* feedback */
+.feedback{
+  text-align: center;
+  padding-top: 20px;
+
+  &__title{
+    font-size: 24px;
+    line-height: 30px;
+    color: #1d1d1d;
+    margin-bottom: 15px;
+  }
+
+  &__text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #83959a;
+    margin-bottom: 22px;
+  }
+}
+
+.feedback-form{
+  width: 627px;
+  height: 560px;
+  background: url("../img/bg-conver.png") no-repeat center top;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 70px 94px 0 94px;
+  overflow: hidden;
+  height: 485px;
+  margin: 0 auto;
+
+  &__title{
+    font-size: 15px;
+    line-height: 19px;
+    color: #83959a;
+    margin-bottom: 40px;
   }
 }
