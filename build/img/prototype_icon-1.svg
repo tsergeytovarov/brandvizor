@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<svg width="52" height="27" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <rect id="svg_2" height="24" width="30" fill="#FBCD3E" y="3.200002" x="0"/>
+   <g id="svg_3">
+    <polyline id="svg_4" points="3,9.200000762939453 3,24.200000762939453 32.99999809265137,24.200000762939453 32.99999809265137,9.200000762939453 " stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <rect id="svg_5" height="6" width="30" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none" y="0.200002" x="3"/>
+    <line id="svg_6" y2="3.200002" x2="8" y1="3.200002" x1="6" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <line id="svg_7" y2="3.200002" x2="11" y1="3.200002" x1="9" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <line id="svg_8" y2="3.200002" x2="14" y1="3.200002" x1="12" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <g id="svg_9">
+     <rect id="svg_10" height="10" width="6" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none" y="10.200002" x="7"/>
+    </g>
+    <g id="svg_11">
+     <rect id="svg_12" height="10" width="12" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none" y="10.200002" x="17"/>
+    </g>
+   </g>
+   <circle id="svg_13" r="2.6" cy="8.200002" cx="44.4" fill="#FBCD3E"/>
+   <g id="svg_14">
+    <circle id="svg_15" r="2.6" cy="7.200002" cx="45.4" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <path id="svg_16" d="m51.200005,12.700001c-1.900002,3.099998 -5.900002,4.099998 -9.099998,2.299999" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <line id="svg_17" y2="2.600002" x2="45.4" y1="0.000002" x1="45.4" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <line id="svg_18" y2="20.500002" x2="40.7" y1="11.200002" x1="43.4" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+    <line id="svg_19" y2="20.500002" x2="50" y1="11.200002" x1="47.3" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+   </g>
+   <line id="svg_20" y2="24.200002" x2="52.1" y1="24.200002" x1="38.6" stroke-miterlimit="10" stroke-width="2" stroke="#1D1D1D" fill="none"/>
+  </g>
+ </g>
+</svg>
