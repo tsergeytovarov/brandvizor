@@ -10,12 +10,8 @@ body{
 }
 
 .wrapper{
-  height: 100%;
-  padding-bottom: 110px;
-  box-sizing: border-box;
-  position: relative;
-  margin-top: -84px;
-  padding-top: 84px;
+  min-height: 100%;
+  margin-bottom: -110px;
   z-index: -10;
 
   & > .container{
@@ -28,5 +24,11 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
+  }
+
+  &:after {
+    content: "";
+    height: 110px;
+    display: block;
   }
 }

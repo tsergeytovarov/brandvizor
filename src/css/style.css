@@ -554,13 +554,8 @@ body{
 }
 
 .wrapper{
-  height: 100%;
-  padding-bottom: 110px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  position: relative;
-  margin-top: -84px;
-  padding-top: 84px;
+  min-height: 100%;
+  margin-bottom: -110px;
   z-index: -10;
 }
 
@@ -575,6 +570,12 @@ body{
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.wrapper:after {
+  content: "";
+  height: 110px;
+  display: block;
 }
 /*header*/
 .header{
@@ -898,6 +899,7 @@ body{
   font-size: 16px;
   line-height: 22px;
   color: #83959a;
+  margin-bottom: 40px;
 }
 
 /* контекст */
