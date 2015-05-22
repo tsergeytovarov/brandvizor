@@ -61,3 +61,18 @@
   color: #83959a;
   margin-bottom: 40px;
 }
+
+.partner-tarif{
+  font-size: 24px;
+  line-height: 50px;
+  color: #2d393b;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 25px;
+
+  img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+}

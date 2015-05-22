@@ -135,11 +135,11 @@ sup {
 }
 
 sup {
-  top: -0.5em;
+  top: -0.5;
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -0.25;
 }
 
 img {
@@ -242,7 +242,7 @@ input[type="search"]::-webkit-search-decoration {
 
 fieldset {
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  padding: 0.35 0.625 0.75;
   border: 1px solid #c0c0c0;
 }
 
@@ -768,6 +768,15 @@ body {
   padding: 29px 0;
   background: #3a494b;
 }
+.partner__text-inner {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 20px;
+  color: #83959a;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 22px;
+}
 .partner__text {
   display: block;
   float: left;
@@ -894,6 +903,21 @@ body {
   color: #83959a;
   font-size: 16px;
   line-height: 22px;
+}
+
+.partner-tarif {
+  display: inline-block;
+  margin-top: 25px;
+  color: #2d393b;
+  vertical-align: middle;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.partner-tarif img {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
 }
 
 /* контекст */

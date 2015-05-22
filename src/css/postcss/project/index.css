@@ -64,6 +64,16 @@
   background: #3a494b;
   padding: 29px 0;
 
+  &__text-inner{
+    font-size: 18px;
+    line-height: 22px;
+    color: #83959a;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+
   &__text{
     display: block;
     float: left;
